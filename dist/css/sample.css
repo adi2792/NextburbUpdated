@@ -1,0 +1,226 @@
+.section-content{
+	width: 645px;
+    margin: 0 auto;
+}
+.section-wrapper{
+	margin-left:0px !important;
+}
+.header-title-li{
+	display:inline;
+	padding-left:85px;
+}
+
+.header-unordered-list{
+	margin-left:-55px;
+	font-weight:600;
+	color:#6c757d;
+}
+.header-list{
+	background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,.125); 
+	box-shadow:0px 5px rgba(0,0,0,.125);
+   
+}
+.card-header {
+    
+    border-bottom: 0px solid rgba(0,0,0,.125);
+   
+}
+
+.first-header-title{
+	color:#dc3545;
+	padding-left: 23px;
+}
+.first-header-title::after{
+	content: '';
+    position: absolute;
+    display: block;
+    width: 95px;
+    height: 5px;
+    background: #dc3545;
+   
+    margin: 11px;
+    left: 15px;
+
+}
+
+.label-address-section{
+	border: 0px solid #ced4da;
+	margin-left: -12px;
+}
+
+.form-one{
+	margin-top:20px;
+}
+
+.icon-section{
+	margin-left: 125px;
+	color:#dc3545;
+}	
+
+.form-one-label{
+	font-size: 20px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section-two{
+	background-color: transparent;
+    border-bottom: 3px solid rgba(0,0,0,.125); 
+	
+   height:105px;
+}
+
+.title-content{
+	font-size: 20PX;
+    color: #6c757d;
+}
+
+.section-three-column-one{
+	border: 1px solid rgba(0,0,0,.125);
+	width: 40%;
+	margin-right: 70px;
+}	
+.section-three-column-two{
+	border: 1px solid rgba(0,0,0,.125);width: 40%;
+}
+.section-row{
+	margin:0 auto;
+}
+.first_sub{
+	margin-left: 10px;
+}
+.second_sub{
+	margin-left: 10px;
+}
+.first-sec-title{
+	font-size: 18px;
+    font-weight: 600;
+}
+.count{
+	color:#dc3545;
+}
+.section-three-title{
+	padding:10px;
+}
+
+/****** New Sample design -1 CSS ********/
+
+.card-title-para{
+	margin-left:250px;
+	margin-top: -24px;
+    font-weight: 600;
+	font-size:20px;
+}
+
+.search-icon{
+	margin-left:25px;
+}
+
+.head-subtitle{
+	text-align: center;
+    font-size: 17px;
+    margin-top: -20px;
+    color: #A09BA4;
+	
+}
+.head-subtitle-span{
+	color:#f47373;
+}
+.first-subtitle-section{
+	text-align:center;
+}
+.first-head-subtitle{
+	font-size: 18px;
+    font-weight: 600;
+    color: #262222;
+}
+.second-subtitle-section{
+	text-align:center;
+}
+.second-head-subtitle{
+	font-size: 18px;
+    font-weight: 600;
+    color: #f47373;
+}
+.empty-div-section{
+	background: darkgray;
+	padding: 20px;
+	height: 200px; 
+}
+.content-section{
+	padding: 20px;
+}
+.content-section-btn{
+	width: 85px;
+    float: right;
+	color: #f47373;
+	background-color: #f4c1c1;
+    border-color: #f4c1c1;
+    font-size: 16px;
+    font-weight: 600;
+}
+.content-section-btn:hover{
+	color: #f47373;
+	background-color: #f4c1c1;
+    border-color: #f4c1c1;
+}
+.compare-title{
+	font-size:21px;
+}
+.para-section{
+	padding:20px;
+	
+}
+.content-para-section{
+	border-right: 5px solid #e9ecef;
+}
+.font-plus-icon{
+	float:right;
+	color:#f47373;
+}
+.font-heart-icon{
+	font-size:20px;
+	margin-left:160px;
+	color:#f47373;
+}
+.acc-title{
+	font-weight: 600; 
+    
+    font-size: 20px;
+}
+.another-empty-div{
+	height: 180px;
+    border-radius: 5%;
+    background: #fff;
+    margin-top: -20px;
+    border-left: 0px solid #fff;
+    border-right: 0px solid #fff;
+}
+.div-section-first{
+	margin-top:-180px;
+}
+@media (min-width:320px) and (max-width: 480px) {
+
+.section-wrapper{
+	background:#fff;
+}
+.resp-another-empty-div{
+    border-radius: 10%;
+}
+
+
+}
