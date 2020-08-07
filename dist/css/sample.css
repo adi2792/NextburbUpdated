@@ -158,7 +158,8 @@
 }
 .empty-div-section{
 	background: darkgray;
-	padding: 20px;
+	
+	/* padding: 20px; */
 	height: 300px; 
 }
 .content-section{
